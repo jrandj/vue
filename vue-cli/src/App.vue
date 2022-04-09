@@ -4,8 +4,14 @@
       <h1>My Friends</h1>
     </header>
     <ul>
-      <friend-contact></friend-contact>
-      <friend-contact></friend-contact>
+      <friend-contact
+        v-for="friend in friends"
+        v-bind:key="friend.id"
+        v-bind:name="friend.name"
+        v-bind:phone-number="friend.phone"
+        v-bind:email-address="friend.email"
+        v-bind:isfavorite="true"
+      ></friend-contact>
     </ul>
   </section>
 </template>
