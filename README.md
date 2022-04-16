@@ -1,11 +1,11 @@
 # Vue - The Complete Guide
 
-- [Section 2: Basics & Core Concepts - DOM Interaction with Vue](#Section-2:-Basics-&-Core-Concepts)
-- [Section 3: Rendering Conditional Content & Lists](#Section-3:-Rendering Conditional-Content-&-Lists)
+- [Section 2: Basics & Core Concepts](#Section-2:-Basics-&-Core-Concepts)
+- [Section 3: Rendering Conditional Content & Lists](#Section-3:-Rendering-Conditional-Content-&-Lists)
 - [Section 8: Component Communication](#Section-8:-Component-Communication)
-- [Section 9: Diving Deeper into Components](#Section-9:-Diving-Deeper-into Components)
+- [Section 9: Diving Deeper into Components](#Section-9:-Diving-Deeper-into-Components)
 
-## Section 2: Basics & Core Concepts - DOM Interaction with Vue
+## Section 2: Basics & Core Concepts
 1. DOM & Templates
     * Vue can be used to define the goal instead of the steps (**declarative** approach).
     * **Connect** Vue to HTML via "**mount**": Vue **then renders the real DOM** based on the connected template.
