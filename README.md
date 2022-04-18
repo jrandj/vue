@@ -1,16 +1,16 @@
 # Vue - The Complete Guide
 
-- [Basics & Core Concepts](#Basics-&-Core-Concepts)
-- [Rendering Conditional Content & Lists](#Rendering-Conditional-Content-&-Lists)
+- [Basics and Core Concepts](#Basics-and-Core-Concepts)
+- [Rendering Conditional Content and Lists](#Rendering-Conditional-Content-and-Lists)
 - [Component Communication](#Component-Communication)
 - [Diving Deeper into Components](#Diving-Deeper-into-Components)
 
-## Basics & Core Concepts
-1. DOM & Templates
+## Basics and Core Concepts
+1. DOM and Templates
     * Vue can be used to define the goal instead of the steps (**declarative** approach).
     * **Connect** Vue to HTML via "**mount**": Vue **then renders the real DOM** based on the connected template.
 
-1. Data & Event Bindings
+1. Data and Event Bindings
     * You can **bind data** via interpolation (**{{ }}**) or the **v-bind** (":") directive.
     * You **listen for events** via **v-on** ("@").
 
@@ -22,7 +22,7 @@
     * Dynamic CSS class and inline style bindings are supported by Vue.
     * Vue offers multiple **special syntaxes** (object-based, array-based) for efficient bindings.
 
-## Rendering Conditional Content & Lists
+## Rendering Conditional Content and Lists
 1. Conditional Content
     * **v-if** (and **v-show**) allows you to render content **only if a certain condition is met**.
     * v-if can be combined with **v-else** and **v-else-if** (only on direct sibling elements!).
@@ -57,7 +57,7 @@
     * **Provide data in a parent** component, **inject it into a child** component.
 
 ## Diving Deeper into Components
-1. Component Registration & Styles
+1. Component Registration and Styles
     * Components can be registered **globally or locally: Prefer local** registration.
     * Styles can be **global or scoped** to a component: **Prefer scoped** for most components.
 
@@ -69,6 +69,6 @@
     * Components can be **swapped dynamically** via the built-in "component" component.
     * Component caching can be added via the "keep-alive" component.
 
-1. Teleport & Style Guide
+1. Teleport and Style Guide
     * **DOM structure can be manipulated** via "teleport" - it **keeps the component hierarchy!**
     * **Consider following the official style guide** to keep your code clean and understandable.
