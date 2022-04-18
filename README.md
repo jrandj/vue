@@ -1,11 +1,11 @@
 # Vue - The Complete Guide
 
-- [Section 2: Basics & Core Concepts](#Section-2:-Basics-&-Core-Concepts)
-- [Section 3: Rendering Conditional Content & Lists](#Section-3:-Rendering-Conditional-Content-&-Lists)
-- [Section 8: Component Communication](#Section-8:-Component-Communication)
-- [Section 9: Diving Deeper into Components](#Section-9:-Diving-Deeper-into-Components)
+- [Basics & Core Concepts](#Basics-&-Core-Concepts)
+- [Rendering Conditional Content & Lists](#Rendering-Conditional-Content-&-Lists)
+- [Component Communication](#Component-Communication)
+- [Diving Deeper into Components](#Diving-Deeper-into-Components)
 
-## Section 2: Basics & Core Concepts
+## Basics & Core Concepts
 1. DOM & Templates
     * Vue can be used to define the goal instead of the steps (**declarative** approach).
     * **Connect** Vue to HTML via "**mount**": Vue **then renders the real DOM** based on the connected template.
@@ -22,7 +22,7 @@
     * Dynamic CSS class and inline style bindings are supported by Vue.
     * Vue offers multiple **special syntaxes** (object-based, array-based) for efficient bindings.
 
-## Section 3: Rendering Conditional Content & Lists
+## Rendering Conditional Content & Lists
 1. Conditional Content
     * **v-if** (and **v-show**) allows you to render content **only if a certain condition is met**.
     * v-if can be combined with **v-else** and **v-else-if** (only on direct sibling elements!).
@@ -39,7 +39,7 @@
     * Vue **re-uses DOM elements** to optimize performance. This can lead to bugs if elements contain state.
     * Bind the **key** attribute to a unique value to help Vue identify elements that belong to list content.
 
-## Section 8: Component Communication
+## Component Communication
 1. Component Communication Overview
     * Components are used to build UIs by **combining** them.
     * Components build "**parent-child**" relations and use "**unidirectional** data flows" for communication.
@@ -56,7 +56,7 @@
     * If data needs to be passed **across multiple components** ("pass through"), you can use **provide/inject**.
     * **Provide data in a parent** component, **inject it into a child** component.
 
-## Section 9: Diving Deeper into Components
+## Diving Deeper into Components
 1. Component Registration & Styles
     * Components can be registered **globally or locally: Prefer local** registration.
     * Styles can be **global or scoped** to a component: **Prefer scoped** for most components.
